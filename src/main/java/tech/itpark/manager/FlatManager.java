@@ -4,9 +4,10 @@ import tech.itpark.model.Flat;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class FlatManager {
-    private ArrayList<Flat> items = new ArrayList<>();
+    private List<Flat> items = new ArrayList<Flat>();
     private int nextId = 1;
     private double deltaPrice;
     private int deltaFloor;
@@ -16,7 +17,7 @@ public class FlatManager {
         this.deltaFloor = deltaFloor;
     }
 
-    public ArrayList<Flat> getAll(){
+    public List<Flat> getAll(){
         return items;
     }
 

@@ -5,13 +5,14 @@ import tech.itpark.manager.FlatManager;
 import tech.itpark.model.Flat;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class FlatController {
     private FlatManager manager = new FlatManager(100_000.0, 1);
 
     @RequestMapping("/flats")
-    public ArrayList<Flat> getAll(){
+    public List<Flat> getAll(){
         return manager.getAll();
     }
 
