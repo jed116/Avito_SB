@@ -1,8 +1,8 @@
-package tech.itpark.avito_sb.controller;
+package tech.itpark.controller;
 
 import org.springframework.web.bind.annotation.*;
-import tech.itpark.avito_sb.manager.FlatManager;
-import tech.itpark.avito_sb.model.Flat;
+import tech.itpark.manager.FlatManager;
+import tech.itpark.model.Flat;
 
 import java.util.ArrayList;
 

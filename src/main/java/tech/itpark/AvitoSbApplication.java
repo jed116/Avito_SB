@@ -1,4 +1,4 @@
-package tech.itpark.avito_sb;
+package tech.itpark;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

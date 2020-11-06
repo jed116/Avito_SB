@@ -1,6 +1,6 @@
-package tech.itpark.avito_sb.manager;
+package tech.itpark.manager;
 
-import tech.itpark.avito_sb.model.Flat;
+import tech.itpark.model.Flat;
 
 import java.util.ArrayList;
 import java.util.Arrays;

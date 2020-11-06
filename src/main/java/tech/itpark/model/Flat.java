@@ -1,4 +1,4 @@
-package tech.itpark.avito_sb.model;
+package tech.itpark.model;
 
 import java.util.ArrayList;
 
